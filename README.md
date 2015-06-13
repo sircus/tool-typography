@@ -2,14 +2,18 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-typo.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-typo)
 
-> A typo tools Module of Sircus.
+> A typography tools Module of Sircus.
+
+## Dependencies
+- [sircus-global-proprety](https://github.com/sircus/global-property)
+
 
 ## Installation
 
 > use npm:
 
 ```bash
-$ npm install sircus-tools-typo
+$ npm install sircus-tools-typo && npm install sircus-global-proprety
 ```
 
 ## Usage
@@ -18,14 +22,16 @@ $ npm install sircus-tools-typo
 
 input.css
 ```css
-@import "sircus-tools-typo"
+@import "sircus-tools-typo";
+@import "sircus-global-property";
 ```
 
 > use sass:
 
 input.scss
 ```css
-@import "node_modules/sircus-tools-typo/converted"
+@import "node_modules/sircus-global-property/converted";
+@import "node_modules/sircus-tools-typo/converted";
 ```
 
 
