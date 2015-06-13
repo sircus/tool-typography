@@ -13,7 +13,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-tools-typo && npm install sircus-global-proprety
+$ npm install sircus-tools-typo sircus-global-proprety
 ```
 
 ## Usage
